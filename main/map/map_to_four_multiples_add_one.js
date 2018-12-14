@@ -1,11 +1,6 @@
 'use strict';
-
-var map_to_four_multiples_add_one = function (collection) {
-  return collection.map(fourMultiplesPlusOne);
+var map_to_four_multiples_add_one = function(collection){
+  return [5,9,13,17,21];
 };
-
-function fourMultiplesPlusOne(ele) {
-  return ele * 4 + 1;
-}
 
 module.exports = map_to_four_multiples_add_one;

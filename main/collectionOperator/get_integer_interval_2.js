@@ -1,28 +1,7 @@
 'use strict';
 
 function get_integer_interval_2(number_a, number_b) {
-  let intervalArray = get_integer_interval(number_a, number_b);
-  return intervalArray.filter(function (element) {
-    return element % 2 == 0;
-  });
-}
-
-function get_integer_interval(number_a, number_b) {
-  let leftInterval = Math.min(number_a, number_b);
-  let rightInterval = Math.max(number_a, number_b);
-  let integerArray = getIntervalArr(leftInterval, rightInterval);
-  if (number_a > number_b) {
-    integerArray.reverse();
-  }
-  return integerArray;
-}
-
-function getIntervalArr(leftInterval, rightInterval) {
-  let integerArray = [];
-  for (leftInterval; leftInterval <= rightInterval; leftInterval++) {
-    integerArray.push(leftInterval);
-  }
-  return integerArray;
+  //在这里写入代码
 }
 
 module.exports = get_integer_interval_2;

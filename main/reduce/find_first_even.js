@@ -1,11 +1,7 @@
 'use strict';
 
 function find_first_even(collection) {
-  return collection.find(even);
-}
-
-function even(num) {
-  return num % 2 == 0;
+  //在这里写入代码
 }
 
 module.exports = find_first_even;

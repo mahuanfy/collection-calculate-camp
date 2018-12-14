@@ -1,9 +1,7 @@
 'use strict';
 
 function get_intersection(collection_a, collection_b) {
-  return collection_b.filter(function (element) {
-    return collection_a.includes(element);
-  });
+  //在这里写入代码
 }
 
 module.exports = get_intersection;
