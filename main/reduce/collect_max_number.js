@@ -1,7 +1,11 @@
 'use strict';
 
 function collect_max_number(collection) {
-  //在这里写入代码
+  return collection.reduce(maxNumber);
+}
+
+function maxNumber(max, current) {
+  return Math.max(max, current);
 }
 
 module.exports = collect_max_number;
