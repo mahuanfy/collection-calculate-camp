@@ -1,8 +1,11 @@
 'use strict';
 
 function double_to_one(collection) {
+  return collection.reduce(toConcatArr, []);
+}
 
-  //在这里写入代码
+function toConcatArr(accumulator, currentValue) {
+  return accumulator.concat(currentValue);
 }
 
 module.exports = double_to_one;
